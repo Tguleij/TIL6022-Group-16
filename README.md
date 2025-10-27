@@ -30,7 +30,7 @@ By linking emission developments to the rise of electric vehicles, the study pro
 **Main Research Question:**  
 To what extent has the growth of electric passenger cars in the Netherlands between 2018 and 2023 correlated to changes in CO₂, NOx and PM₁₀ emissions from passenger cars, both in totals and per vehicle-kilometre?  
 
-### Sub-questions
+### Sub-questions:
 1. How do CO₂, NOx, and PM₁₀ totals and intensities (g/km) for passenger cars evolve over 2018–2023?  
 2. How does the BEV, FCEV, and PHEV passenger-car population develop during the period 2018–2023?  
 3. How are BEV, FCEV, and PHEV passenger-car changes related to annual emission intensities?  
