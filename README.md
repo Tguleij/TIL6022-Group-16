@@ -45,3 +45,11 @@ CO2 emissions decrease from roughly 17.5 to 15.6 million kg, while NOx falls fro
 
 
 When emissions are normalized by kilometers driven, a clear downward trend can be observed for CO2 and NOx intensities between 2018 and 2023. This indicates that both technological improvements and the gradual increase in electric vehicles have improved emissions efficiency. On the other hand, the intensity of PM10 has declined only marginally, implying limited progress.  
+
+---
+
+## Sub-question 2
+
+In the figure below, we present the combined impact of Battery Electric Vehicles (BEVs), Plug-in Hybrid Electric Vehicles (PHEVs), and Fuel Cell Electric Vehicles (FCEVs). These three categories represent the core of the new generation of low-emission and zero-emission vehicles. By grouping them together, we aim to capture the overall contribution of this technological transition within the automotive sector. 
+
+Since precise data on the emissions and energy consumption of each vehicle type are not yet available or vary significantly depending on usage patterns and regional factors, we assume that their environmental contributions are approximately equal. This assumption allows us to evaluate the collective effect of these advanced vehicle technologies on reducing total emissions and promoting cleaner mobility. 
