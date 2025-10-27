@@ -22,3 +22,17 @@ This study investigates to what extent the growth of electric passenger cars in 
 The analysis is based on three national datasets covering the years 2018–2023, containing detailed information on newly sold passenger cars, total kilometres driven in the Netherlands, and emissions per pollutant.  
 
 By linking emission developments to the rise of electric vehicles, the study provides insight into the effectiveness of vehicle electrification in reducing climate and air-pollution impacts from passenger transport in the Netherlands.
+
+---
+
+## Research Question
+
+**Main Research Question:**  
+To what extent has the growth of electric passenger cars in the Netherlands between 2018 and 2023 correlated to changes in CO₂, NOx and PM₁₀ emissions from passenger cars, both in totals and per vehicle-kilometre?  
+
+### Sub-questions
+1. How do CO₂, NOx, and PM₁₀ totals and intensities (g/km) for passenger cars evolve over 2018–2023?  
+2. How does the BEV, FCEV, and PHEV passenger-car population develop during the period 2018–2023?  
+3. How are BEV, FCEV, and PHEV passenger-car changes related to annual emission intensities?  
+4. How might the long-term growth in EV share affect emission intensity by 2030?  
+
