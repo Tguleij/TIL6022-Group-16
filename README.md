@@ -42,3 +42,6 @@ To what extent has the growth of electric passenger cars in the Netherlands betw
 Between 2018 and 2023, total emissions from passenger cars in the Netherlands show a clear downward trend for all three pollutants.  This is shown in Figures 1, 2, and 3.
 
 CO2 emissions decrease from roughly 17.5 to 15.6 million kg, while NOx falls from about 28.8 to 18.7 million kg, and PM10 remains relatively stable around 2.0 million kg. In the figure of CO2 and PM10 the sharp decline in 2020 coincides with the COVID-19 pandemic, which led to widespread lockdowns, remote working, and reduced travel activity in the Netherlands. As a result, the total number of kilometres driven by passenger cars fell by nearly 15-20% compared to previous years. This reduction in mobility is directly translated into lower total emissions, rather than a structural improvement in vehicle efficiency or technology.  
+
+
+When emissions are normalized by kilometers driven, a clear downward trend can be observed for CO2 and NOx intensities between 2018 and 2023. This indicates that both technological improvements and the gradual increase in electric vehicles have improved emissions efficiency. On the other hand, the intensity of PM10 has declined only marginally, implying limited progress.  
