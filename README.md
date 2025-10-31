@@ -29,9 +29,10 @@ To answer this, four sub-questions were addressed:
 ---
 
 ### Data Sources  
-All data used in this project are publicly available from CBS Open Data.  
+All data used in this project are publicly available from CBS Open Data and RVO.  
 - [Air emissions from road transport in the Netherlands](https://opendata.cbs.nl/#/CBS/nl/dataset/85347NED/table?ts=1760339509512)
-
+- [https://duurzamemobiliteit.databank.nl/mosaic/nl-nl/elektrisch-vervoer/lichte-bedrijfsvoertuigen]
+- [https://www.cbs.nl/nl-nl/cijfers/detail/85404NED]
 These data cover the years 2018 to 2023 and include information on total vehicle kilometres, emissions per pollutant, and EV fleet composition.
 
 ---
