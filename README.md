@@ -38,12 +38,12 @@ These data cover the years 2018 to 2023 and include information on total vehicle
 ---
 
 ### Methods and Tools  
-All analyses were conducted in **Python**, using the following libraries:
-- `pandas` – for data import and processing  
-- `numpy` – for numerical operations and correlation analysis  
-- `plotly.express` – for interactive data visualization  
-- `matplotlib` – for static plots  
-- `re` – for text processing and data cleaning  
+All analyses were conducted in Python, using the following libraries:
+- pandas, for data import and processing  
+- numpy, for numerical operations and correlation analysis  
+- plotly.express, for data visualization  
+- matplotlib, for static plots  
+- re, for text processing and data cleaning  
 
 The datasets were merged and normalized to calculate annual emission intensities (g/km). Pearson’s correlation coefficient was used to assess the relationship between EV share and emission intensity.
 
