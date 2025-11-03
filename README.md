@@ -79,7 +79,7 @@ CO2_g_per_km = (CO2_mlnkg * 1_000_000_000) / (km_mln * 1_000_000)
  - Emission intensities (g/km)
  - Growth of EV share (%)
 
-# Compute correlations between EV share and emission intensities
+**Compute correlations between EV share and emission intensities**
 If correlation values are negative, it indicates that higher EV shares are associated with lower emission intensities.
 
 ## 5. Visualization
