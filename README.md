@@ -28,14 +28,7 @@ To answer this, four sub-questions were addressed:
 
 ---
 
-### Data Sources  
-All data used in this project are publicly available from CBS Open Data and RVO.  
-- [Air emissions from road transport in the Netherlands](https://opendata.cbs.nl/#/CBS/nl/dataset/85347NED/table?ts=1760339509512)
-- [https://duurzamemobiliteit.databank.nl/mosaic/nl-nl/elektrisch-vervoer/personenauto-s]
-- [https://www.cbs.nl/nl-nl/cijfers/detail/85404NED]
-These data cover the years 2018 to 2023 and include information on total vehicle kilometres, emissions per pollutant, and EV fleet composition.
 
----
 
 ### Methods and Tools  
 All analyses were conducted in Python, using the following libraries:
@@ -50,7 +43,51 @@ The datasets were merged and normalized to calculate annual emission intensities
 ---
 
 ### How to Run the Analysis  
-1. **Download** the project files (`main_analysis.py` or `EV_emissions_analysis.ipynb`).  
-2. **Install dependencies** by running:  
-   ```bash
-   pip install pandas numpy plotly matplotlib
+
+### 1. Data Sources  
+All data used in this project are publicly available from CBS Open Data and RON.  
+- [Air emissions from road transport in the Netherlands](https://opendata.cbs.nl/#/CBS/nl/dataset/85347NED/table?ts=1760339509512)]
+- [https://duurzamemobiliteit.databank.nl/mosaic/nl-nl/elektrisch-vervoer/personenauto-s]
+- [https://www.cbs.nl/nl-nl/cijfers/detail/85404NED]
+  
+These data cover the years 2018 to 2023 and include information on total vehicle kilometres, emissions per pollutant, and EV fleet composition.
+
+---
+
+
+## 2. Data Cleaning & Preparation
+
+- Filter only passenger cars (exclude buses and trucks).  
+- Select years 2018–2023.  
+- Replace commas with dots in numerical columns.  
+- Rename columns for clarity (`CO2_mlnkg`, `NOx_mlnkg`, `PM10_mlnkg`).  
+- Convert text-based year column (`Perioden`) to numeric (`Jaar`).
+
+---
+
+## 3. Data Transformation
+
+**Calculate emission intensities (g/km):**
+
+CO2_g_per_km = (CO2_mlnkg * 1_000_000_000) / (km_mln * 1_000_000)
+
+## 4. Analysis
+
+
+# Investigate trends in:
+ - Total emissions (mln kg)
+ - Emission intensities (g/km)
+ - Growth of EV share (%)
+
+# Compute correlations between EV share and emission intensities
+If correlation values are negative, it indicates that higher EV shares are associated with lower emission intensities.
+
+## 5. Visualization
+
+Visualizations were created using **Plotly** to explore trends and relationships in the data.
+
+- **Line plots:** Show total emissions (CO₂, NOx, PM10) and their emission intensities over time.  
+- **Dual-axis plots:** Compare the EV share with emission intensities to visualize how electrification affects emissions.  
+- **Comparative plots:** Display CO₂, NOx, and PM10 trends side by side for easy comparison across pollutants and years.
+
+
