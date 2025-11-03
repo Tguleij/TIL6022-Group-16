@@ -15,7 +15,7 @@
 ## **An analysis of the impact of electric vehicles on emission intensity in Dutch road transport**
 
 ### Introduction  
-This project investigates how the rise of electric passenger cars in the Netherlands between 2018 and 2023 has influenced emissions of CO₂, NOx, and PM₁₀. The electrification of passenger transport plays a key role in achieving climate goals, reducing air pollution, and improving air quality. Using national datasets from the Dutch Central Bureau of Statistics (CBS), the analysis explores how total and per-kilometre emissions have changed in relation to the increasing share of electric vehicles.
+This project investigates how the rise of electric passenger cars in the Netherlands between 2018 and 2023 has influenced emissions of CO₂, NOx, and PM₁₀. The electrification of passenger transport plays a key role in achieving climate goals, reducing air pollution, and improving air quality. Using national datasets from the Dutch Central Bureau of Statistics (CBS) and RVO, the analysis explores how total and per-kilometre emissions have changed in relation to the increasing share of electric vehicles.
 
 The main research question guiding this study is:  
 **To what extent has the growth of electric passenger cars in the Netherlands between 2018 and 2023 correlated to changes in CO₂, NOx and PM₁₀ emissions from passenger cars, both in totals and per vehicle-kilometre?**
@@ -45,7 +45,7 @@ The datasets were merged and normalized to calculate annual emission intensities
 ### How to Run the Analysis  
 
 ### 1. Data Sources  
-All data used in this project are publicly available from CBS Open Data and RON.  
+All data used in this project are publicly available from CBS Open Data and RVO.  
 - [Air emissions from road transport in the Netherlands](https://opendata.cbs.nl/#/CBS/nl/dataset/85347NED/table?ts=1760339509512)]
 - [https://duurzamemobiliteit.databank.nl/mosaic/nl-nl/elektrisch-vervoer/personenauto-s]
 - [https://www.cbs.nl/nl-nl/cijfers/detail/85404NED]
@@ -79,7 +79,8 @@ CO2_g_per_km = (CO2_mlnkg * 1_000_000_000) / (km_mln * 1_000_000)
  - Emission intensities (g/km)
  - Growth of EV share (%)
 
-**Compute correlations between EV share and emission intensities**
+**Compute correlations between EV share and emission intensities:**
+
 If correlation values are negative, it indicates that higher EV shares are associated with lower emission intensities.
 
 ## 5. Visualization
