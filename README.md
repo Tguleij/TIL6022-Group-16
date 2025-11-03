@@ -89,6 +89,6 @@ Visualizations were created using **Plotly** to explore trends and relationships
 
 - **Line plots:** Show total emissions (CO₂, NOx, PM10) and their emission intensities over time.  
 - **Dual-axis plots:** Compare the EV share with emission intensities to visualize how electrification affects emissions.  
-- **Comparative plots:** Display CO₂, NOx, and PM10 trends side by side for easy comparison across pollutants and years.
+- **Comparative plots:** Display CO₂, NOx, and PM10 trends side by side for easy comparison across pollutants and years. Look at the future trends and give conclusions based on climate goals.
 
 
